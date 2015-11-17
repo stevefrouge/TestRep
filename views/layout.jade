@@ -8,9 +8,9 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
     link(rel='stylesheet', href='/stylesheets/superslides.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
-    .navbar.navbar-default.main-menu.container
-      .row
-        .navbar-header.col-md-6
+    .navbar.navbar-default.main-menu.tiny
+      .container
+        .navbar-header
           button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
             span.icon-bar
             span.icon-bar
@@ -21,12 +21,15 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
                 | Stephen
                 span Frouge
               div Passionate Supranatural
-        .navbar-collapse.collapse.col-md-6
+        .navbar-collapse.collapse
           ul(class='nav navbar-nav navbar-right')
             li
-              a(href='#') HOME
-    .container.parent
-      block content
+              a(href='#') Home
+            li
+              a(href='#') Experiences
+            li
+              a(href='#') Work
+    block content
     script(src='/javascripts/jquery.min.js' type='text/javascript')
     script(src='/javascripts/waypoints.min.js' type='text/javascript')
     script(src='/javascripts/jquery.superslides.js' type='text/javascript')
