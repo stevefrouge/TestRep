@@ -33,6 +33,44 @@ font-size: 100%;
 font: inherit;
 vertical-align: baseline;
 }
+
+/*UL*/
+.ulJobpoints {
+  list-style-type: disc;
+  margin: 0;
+  padding: 0;
+}
+ 
+.ulJobpoints li {
+  margin-bottom: 10px;
+  /*font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;*/
+}
+ 
+.ulJobpoints li:last-child {
+  border: none;
+}
+ 
+.ulJobpoints li a {
+  text-decoration: none;
+  color: #666;  
+  width: 200px; 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+.ulJobpoints  li a:hover {
+  
+  /*font-weight: bold;*/
+  font-size: 16px;
+  cursor: pointer;
+  /*background: #f6f6f6;*/
+}
+/*END UL*/
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -141,7 +179,8 @@ border-radius:4px;
 .separator_second_circle_grey{
 width: 22px;
 height: 22px;
-background-color:#f00;
+/*background-color:#f00;*/
+background-color: Purple;
 border: 8px solid #FFFFFF; /* */
 -moz-border-radius:20px;
 -webkit-border-radius:20px;
@@ -258,14 +297,15 @@ padding: 117px 0 0 32px;
 color:#666;
 }
 .logo h2{
-font-size:30px;
+font-size:26px;
 font-weight:normal;
 margin-top: 0;
 margin-bottom: 0;
 font-family: /*'Lato', */sans-serif;
 }
 .logo h2 span{
-color:#f00;
+/*color:#f00;*/
+color: #540115;
 font-weight: 700;
 }
 .logo h3{
@@ -578,14 +618,18 @@ margin:0 15px 0 0;
 width:30px;
 }
 .servbox .desc{
-float:left;
+float:right;
+font-size:14px;
 width:70%;
 }
+.servbox img{
+  max-width: 50px; 
+}
 .servbox h4{
-font-size:14px;
+font-size:12px;
 font-weight:bold;
 margin:0 0 10px 0;
-text-transform:uppercase;
+/*text-transform:uppercase;*/
 }
 .servbox p{
 color:#999;

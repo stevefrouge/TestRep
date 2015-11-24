@@ -7,8 +7,29 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
     link(rel='stylesheet', href='/stylesheets/font-awesome.min.css')
     link(rel='stylesheet', href='/stylesheets/superslides.css')
     link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700')    
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lato:400,700,900')
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Merriweather:400,300italic')
   body
-    .navbar.navbar-default.main-menu.tiny
+    section(class='section banner' data-slide='1')
+      .wrap-circle
+        .circle-1
+          .circle-2
+            .logo
+              h2
+                |stephen
+                span frouge.com
+              .roles
+                div Software Developer
+                div Systems Architect
+                div Business Analyst
+      .wrap-overlay
+      div(id='slides')
+        .slides-container
+          img(src='/images/starwars.jpg')
+          img(src='/images/coffee.jpg')                                          
+          img(src='/images/computer.jpg')
+    .navbar.navbar-default.main-menu
       .container
         .navbar-header
           button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
@@ -18,24 +39,26 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
           a.navbar-brand(href='index.html', data-slide='1')
             .logo
               h2
-                | Stephen
-                span Frouge
-              div Passionate Supranatural
+                | stephen
+                span frouge
+              div software professional
         .navbar-collapse.collapse
           ul(class='nav navbar-nav navbar-right')
             li
               a(href='#') Home
+            li
+              a(href='#') Expertise
             li
               a(href='#') Experiences
             li
               a(href='#') Work
     block content
     script(src='/javascripts/jquery.min.js' type='text/javascript')
-    script(src='/javascripts/waypoints.min.js' type='text/javascript')
+    script(src='/javascripts/waypoint.min.js' type='text/javascript')
     script(src='/javascripts/jquery.superslides.js' type='text/javascript')
-    script(src='/javascripts/jquery.superslides.js' type='text/javascript')
-    script(src='/javascripts/wow.min.js' type='text/javascript')
+    script(src='/javascripts/jquery.sticky.js' type='text/javascript')    
     script(src='/javascripts/jquery.knob.js' type='text/javascript')
     script(src='/javascripts/bootstrap.min.js' type='text/javascript')
+    script(src='/javascripts/wow.min.js' type='text/javascript')
     script(src='/javascripts/script.js' type='text/javascript')
    
