@@ -1,16 +1,5 @@
 new WOW().init();
 
-
-
-function scrollTo(eleName){
-	$('html, body').animate({
-        scrollTop: $("#" + eleName).offset().top - 125
-    }, 2000);
-	
-}
-
-
-
     $(document).ready(function () {
         //$("#menuContainer").sticky({ topSpacing: 0 });
 
