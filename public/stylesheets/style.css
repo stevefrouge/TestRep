@@ -65,7 +65,7 @@ vertical-align: baseline;
 .ulJobpoints  li a:hover {
   
   /*font-weight: bold;*/
-  font-size: 16px;
+  /*font-size: 16px;*/
   cursor: pointer;
   /*background: #f6f6f6;*/
 }
@@ -209,6 +209,7 @@ height: 100%;
 min-height:100%;
 display:block;
 position:relative;
+background-attachment: fixed;
 }
 
 .wrap-splash{
