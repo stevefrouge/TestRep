@@ -1,18 +1,17 @@
-/*
-Template Name: Mbah Bedjo CV
-Template URI: Mbah Bedjo
-Author: Rudhi Sasmito
-Author URI: https://www.behance.net/rudhisasmito
-Version: 1.0
-*/
+.divLogin{
+    
+    width: 400px;
+    text-align: Left;    
+    color: black;
+    padding: 20px;
+    background-color: White;
+    display: table;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    display: none;
+}
 
-/* ==========================
-RESET
-============================= */
-/**
-* Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
-* http://cssreset.com
-*/
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -804,6 +803,8 @@ transition-duration: 250ms;
 cursor: pointer;
 -webkit-transition: 0.4s all linear;
 transition: 0.4s all linear;
+height: 300px;
+
 }
 .r-item a:hover img {
 -webkit-transform: scale(1.05,1.07);

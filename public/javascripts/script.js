@@ -10,6 +10,16 @@ function scrollTo(eleName){
 }
 
 
+$( "#aLogin" ).click(function() {
+
+  $(".divLogin").show(1000);
+
+});
+
+
+
+
+
 
     $(document).ready(function () {
         //$("#menuContainer").sticky({ topSpacing: 0 });
