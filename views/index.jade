@@ -275,95 +275,70 @@ block content
                       li 
                         a
                           | Successfully completed multiple projects for private companies and government agencies, including; Papa John’s Pizza, Florida Department of Education (DOE), Florida Department of Environmental Protection (DEP), Paul’s Consulting & Ashbritt Environmental, and Florida Department of Health (DOH).                                              
-    .container
+    .container(id='sectionPortfolio')
         .row
             br
             br
             .col-xs-12.col-sm-12.col-md-12.col-lg-12
                 .title
-                    h2(class='title-section wow animated fadeInDown') projects
+                    h2(class='title-section wow animated fadeInDown') portfolio
                     .separator_wrapper.wow.fadeIn
                         .separator_first_circle
                             .separator_second_circle_grey
-                    p(class='subtitle wow animated fadeInDown')                                            
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
+                    p(class='subtitle wow animated fadeInDown')                                                                                                                                             
+        .row
+            .col-md-3
                 .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' data-toggle='modal1' data-target='#modal1')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
                         img(src='http://stephenfrouge.com/img/papajohns.png')
                         .project-info
                             .project-icon
-                                span(class='fa fa-code')
+                                span(class='fa fa-search')
                             .separator_wrapper.bounce_fade
                                .separator_first_circle
                                   .separator_second_circle_grey
-                            .details Papa John's | Mobile iPhone ordering Site                                      
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
+                            .details Web | Papa John’s Mobile App    
+            .col-md-3
                 .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' href='#' data-toggle='modal' data-target='#modal4')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='http://stephenfrouge.com/img/sqs.png')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details Web | SQS Auto Quote System         
+             .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
+                        img(src='/images/epb.png')
+                        .project-info
+                            .project-icon
+                                span(class='fa fa-search')
+                            .separator_wrapper.bounce_fade
+                               .separator_first_circle
+                                  .separator_second_circle_grey
+                            .details App | ePollbook    
+            .col-md-3
+                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
+                    a(title='' href='#' data-toggle='modal' data-target='#modal1' onClick='changeModal(this);')
                         img(src='http://stephenfrouge.com/img/meckleyweb.PNG')
                         .project-info
                             .project-icon
-                                span(class='fa fa-code')
-                            .separator_wrapper.bounce_fade
-                               .separator_first_circle
-                                  .separator_second_circle_grey
-                            .details Web | Vote Paula Meckley
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
-                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' href='#' data-toggle='modal' data-target='#modal4')
-                        img(src='http://stephenfrouge.com/img/sqs.png')
-                        .project-info
-                            .project-icon
-                                span(class='fa fa-code')
-                            .separator_wrapper.bounce_fade
-                               .separator_first_circle
-                                  .separator_second_circle_grey
-                            .details Web | Vote Paula Meckley
-        .row
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
-                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' data-toggle='modal1' data-target='#modal1')
-                        img(src='http://stephenfrouge.com/img/metatrack1.png')
-                        .project-info
-                            .project-icon
                                 span(class='fa fa-search')
                             .separator_wrapper.bounce_fade
                                .separator_first_circle
                                   .separator_second_circle_grey
-                            .details Papa John's | Mobile iPhone ordering Site                                      
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
-                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' href='#' data-toggle='modal' data-target='#modal4')
-                        img(src='http://stephenfrouge.com/img/newbasketball.png')
-                        .project-info
-                            .project-icon
-                                span(class='fa fa-search')
-                            .separator_wrapper.bounce_fade
-                               .separator_first_circle
-                                  .separator_second_circle_grey
-                            .details Web | Vote Paula Meckley
-            .col-xs-12.col-sm-4.col-md-4.col-lg-4
-                .r-item.wow.fadeInDown(style='visibility: visible; animation-name: fadeInDown;')
-                    a(title='' href='#' data-toggle='modal' data-target='#modal4')
-                        img(src='http://stephenfrouge.com/img/sqs.png')
-                        .project-info
-                            .project-icon
-                                span(class='fa fa-search')
-                            .separator_wrapper.bounce_fade
-                               .separator_first_circle
-                                  .separator_second_circle_grey
-                            .details Web | Vote Paula Meckley              
+                            .details Web | Vote Paula Meckley                             
+                            
+                                      
            
   br
   br
-  br    
-.modal.fade.in(id='modal1' role='dialog' aria-hidden='false' aria-labelledby='myModalLabel1' style='display: block;')
-      .modal-dialog
-        .modal-content
-            .modal-header
-                button(class='close' aria-label='Close' type='button' data-dismiss='modal')
-                h4(class='modal-title' id='myModalLabel1') project Title
-            .modal-body stuff here
+  br
+
+      
     
 
 

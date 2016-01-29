@@ -16,10 +16,15 @@ $( "#aLogin" ).click(function() {
 
 });
 
-
-
-
-
+function changeModal(a){
+    debugger;
+    var img = $(a).find("img");
+    var details = $(a).find(".details");
+    var source= $(img).attr('src');
+    $("#modalimg").attr('src',source);
+    $("#modaltitle").html(details.html());
+    
+}
 
     $(document).ready(function () {
         //$("#menuContainer").sticky({ topSpacing: 0 });
