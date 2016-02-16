@@ -8,6 +8,9 @@
     margin: 5px;
     height: 250px;
 }
+.hand{
+    cursor: pointer;
+}
 .card:hover{
     background: #f5f5f5;
 }

@@ -48,11 +48,11 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
             li
               a(href='#') Home
             li
-              a(onclick='scrollTo("sectionSkills");') Skills
+              a(onclick='scrollTo("sectionSkills");' class="hand") Skills
             li
-              a(onclick='scrollTo("sectionExp");') Experience
+              a(onclick='scrollTo("sectionExp");' class="hand") Experience
             li
-              a(onclick='scrollTo("sectionPortfolio");') Portfolio
+              a(onclick='scrollTo("sectionPortfolio");' class="hand") Portfolio
     block content
     section(class='section connect')
         .container
@@ -60,16 +60,16 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
                 .col-xs-12.col-sm-12.col-md-12.col-lg-12.wow.fadeInDown
                     h2(class='hidden') Connect
                     a(title='' href="#")
-                        .item
+                        .item(style='background: #3a5795;')
                             i(class='fa fa-facebook')
                     a(title='' href="#")
-                        .item
+                        .item(style='background: #1da1f2;')
                             i(class='fa fa-twitter')
                     a(title='' href="#")
-                        .item
+                        .item(style='background: red')
                             i(class='fa fa-google')
                     a(title='' href="#")
-                        .item
+                        .item(style='background: #0077b5;')
                             i(class='fa fa-linkedin')
             .row
                  
