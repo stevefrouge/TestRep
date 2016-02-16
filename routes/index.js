@@ -5,5 +5,8 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'stephenfrouge.com' });
 });
+router.get('/test', function(req, res, next) {
+  res.send('test');
+});
 
 module.exports = router;

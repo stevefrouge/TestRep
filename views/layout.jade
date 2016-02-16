@@ -75,14 +75,14 @@ html(class=' js flexbox canvas canvastext webgl no-touch geolocation postmessage
                  
                     a(href='#login' id='aLogin') Login
                     .divLogin
-                        form
+                        form.well(action="/login", method="post")
                             .form-group
                                 label(for='email') Email Address
-                                input(type='email' class='form-control' id='email' placehodler='Email')
+                                input(name='email' type='email' class='form-control' id='email' placehodler='Email')
                             .form-group
                                 label(for='empasswordail') Password 
-                                input(type='password' class='form-control' id='password')
-                            button(type='submit' class='btn btn-default') Submit                                            
+                                input(name='password' type='password' class='form-control' id='password')
+                            button(type='submit' class='btn btn-default') Login                                            
     .modal(tabindex='-1' id='modal1' role='dialog' aria-hidden='true' aria-labelledby='myModalLabel1')
         .modal-dialog
             .modal-content
