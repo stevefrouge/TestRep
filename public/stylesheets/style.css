@@ -609,7 +609,8 @@ font-size: 12px;
 line-height: 20px;
 color: #fff;
 text-align: center;
-background-color: #cccccc;
+/*background-color: #cccccc;*/
+background-color: #337ab7;
 -webkit-box-shadow: none;
 box-shadow: none;
 -webkit-transition: width .6s ease;
